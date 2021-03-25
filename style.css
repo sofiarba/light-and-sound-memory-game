@@ -1,0 +1,115 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: 'Playfair Display', arial, sans-serif;
+  margin: 2em;
+  background-color: #3AAFA9;
+  color: white; 
+  line-height: 100%;
+  font-weight: 600px;
+  font-style: italic;
+}
+
+h1 {
+  font-family: 'Staatliches', arial, sans-serif; 
+  color: #17252A;
+  line-height: 100%;
+  font-size: 80px;
+  margin-bottom: 0px;
+  font-style: normal;
+}
+
+h2 {
+  font-family: 'Staatliches', arial, sans-serif; 
+  color: #17252A;
+  line-height: 100%;
+  font-style: normal;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  background: #EEEEEE;
+  border: 1px solid;
+  box-shadow: 2px 2px #17252A
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+#startButton, #stopButton {
+  margin: 2px 2px 0 0;
+}
+
+#gameContainer {
+  padding: 10px; 
+}
+
+#gameContainer > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+
+.hidden {
+  display: none
+}
+
+#button1 {
+  background: lightgreen;
+}
+
+#button2 {
+  background: lightblue;
+}
+
+#button3 {
+  background: pink;
+}
+
+#button4 {
+  background: lightyellow;
+}
+
+#button5 {
+  background: #485696;
+}
+
+#button6 {
+  background: #85756E;
+}
+
+#button1:active, #button1.lit {
+  background: green;
+}
+
+#button2:active, #button2.lit {
+  background: blue;
+}
+
+#button3:active, #button3.lit {
+  background: red;
+}
+
+#button4:active, #button4.lit  {
+  background: yellow;
+}
+
+#button5:active, #button5.lit  {
+  background: #8515F4;
+}
+
+#button6:active, #button6.lit  {
+  background: #d97642;
+}
+
+#mistakes, #timer {
+  font-family: 'Staatliches', arial, sans-serif; 
+  margin: 10px 10px 0px 10px;
+}
+
+#game-constraints {
+  display: flex;
+  flex-direction: row;
+}
